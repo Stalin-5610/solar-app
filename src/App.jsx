@@ -19,21 +19,23 @@ function App() {
 
   return (
     <div className='container'>
-      <h1>🌌 Solar Planets App</h1>
+      <h1>🌌 Solar System</h1>
 
       <div className='viewer'>
         <button onClick={prevPlanet} className='nav'>
-          ⬅️
+          ⬅
         </button>
 
         <div className='planet-box'>
           <img src={planet.image} alt={planet.name} />
+
           <h2>{planet.name}</h2>
+
           <p>{planet.info}</p>
         </div>
 
         <button onClick={nextPlanet} className='nav'>
-          ➡️
+          ➡
         </button>
       </div>
     </div>
