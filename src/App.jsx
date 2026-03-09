@@ -23,7 +23,7 @@ function App() {
 
       <div className='viewer'>
         <button onClick={prevPlanet} className='nav'>
-          ⬅
+          ⬅️
         </button>
 
         <div className='planet-box'>
@@ -35,7 +35,7 @@ function App() {
         </div>
 
         <button onClick={nextPlanet} className='nav'>
-          ➡
+          ➡️
         </button>
       </div>
     </div>
